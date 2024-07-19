@@ -84,9 +84,9 @@ function addStar() {
 Array(200).fill().forEach(addStar);
 
 // moon texture, normal texture, jeff texture
-const moonTexture = new THREE.TextureLoader().load("moon.jpg");
-const normalTexture = new THREE.TextureLoader().load("normal.jpg");
-const jeffTexture = new THREE.TextureLoader().load("jeff.png");
+const moonTexture = new THREE.TextureLoader().load("./moon.jpg");
+const normalTexture = new THREE.TextureLoader().load("./normal.jpg");
+const jeffTexture = new THREE.TextureLoader().load("./jeff.png");
 
 // jef
 const jeff = new THREE.Mesh(
